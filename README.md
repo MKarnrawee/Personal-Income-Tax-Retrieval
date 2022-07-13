@@ -1,4 +1,4 @@
-# SCB Partner Ecosystem Portal User
+# Personal-Income-Tax-Retrieval
 
 ## Installation
 ```shell
@@ -14,12 +14,13 @@ $ npm install
 * git
 * Node.js v12.22.x
 
-# Run code locally
+## Run code locally
+```shell
 $ node index.js
 
 # cUrl for testing
 
-curl --location --request GET 'localhost:8000/getpit' \
+$ curl --location --request GET 'localhost:8000/getpit' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "netIncome": 5000000
