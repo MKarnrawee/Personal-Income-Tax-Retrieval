@@ -17,9 +17,10 @@ $ npm install
 ## Run code locally
 ```shell
 $ node index.js
+```
 
 # cUrl for testing
-
+```shell
 $ curl --location --request GET 'localhost:8000/getpit' \
 --header 'Content-Type: application/json' \
 --data-raw '{
