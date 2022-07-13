@@ -19,7 +19,7 @@ $ npm install
 $ node index.js
 ```
 
-# cUrl for testing
+## cUrl for testing
 ```shell
 $ curl --location --request GET 'localhost:8000/getpit' \
 --header 'Content-Type: application/json' \
