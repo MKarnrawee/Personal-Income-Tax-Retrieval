@@ -61,10 +61,7 @@ app.get("/getpit", function (req, res) {
       personalIncomeTax: pit,
     });
   } catch (error) {
-    console.log("GET PERSONAL INCOME TAX ERROR: ", error);
-    res.status(error.http || 500);
-    return res.send({
-      description: error.message || "generic_server_error",
-    });
+    console.log(err);
+    return res.status(500).send();
   }
 });
